@@ -1,39 +1,24 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
-
+# To do list  🎯
 
 ## Basic Details
-### Team Name: [Name]
-
+### Team Name : Spectra
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: EDNA MARY - ALBERTIAN INSTITUTE OF SCIENCE AND TECHNOLOGY KALAMASSERY
+- Member 2: SREEVIDHYA T S - ALBERTIAN INSTITUTE OF SCIENCE AND TECHNOLOGY KALAMASSERY
 
 ### Project Description
-[2-3 lines about what your project does]
-
-### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
-
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+This application is suitable for personal task management, allowing users to keep track of their tasks and deadlines in a simple and intuitive way.Out of 100 only 10 people will use it properly, or complete the task. And also there is no special reminders to do on due date . Since this is an useless one
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Python 
+- html
+- css
 
 ### Implementation
 For Software:
@@ -41,7 +26,7 @@ For Software:
 [commands]
 
 # Run
-[commands]
+run using : python app.py command
 
 ### Project Documentation
 For Software:
@@ -51,9 +36,6 @@ For Software:
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
 # Diagrams
@@ -81,16 +63,14 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+(https://drive.google.com/file/d/1GZ8T8QtWGYdvEOWKcBa3RmgoDw-TCR4Q/view?usp=drivesdk)
+In this video we are adding tasks and deleting it .
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
+Both members done the project very well.
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
+
