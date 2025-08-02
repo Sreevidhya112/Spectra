@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Funny To-Do List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 My (Barely Functioning) To-Do List</h1>
+
+        <form action="/add" method="post" class="task-form">
+            <input type="text" name="description" placeholder="Task description..." required>
+            <input type="date" name="due_date" required>
+            <select name="priority">
+                <option value="high">🔥 High</option>
+                <option value="medium">😐 Medium</option>
+                <option value="low">💤 Low</option>
+            </select>
+            <button type="submit">➕ Add Task</button>
+        </form>
+
+        <ul class="task-list">
+            {% for task in tasks %}
+            <li class="task-item {{ 'done' if task.is_completed else '' }}">
+                <div class="task-info">
+                    <span>{{ task.description }}</span>
+                    <small>Due: {{ task.due_date }} | Priority: {{ task.priority }}</small>
+                    <small>Status: {{ "✅ Done" if task.is_completed else "🕓 Still pending..." }}</small>
+                </div>
+                <div class="task-actions">
+                    {% if not task.is_completed %}
+                    <a href="{{ url_for('complete', task_id=loop.index0) }}" title="Mark complete">✅</a>
+                    {% endif %}
+                    <a href="{{ url_for('delete', task_id=loop.index0) }}" title="Delete task">🗑️</a>
+                </div>
+            </li>
+            {% else %}
+            <li><em>No tasks yet. Your laziness is legendary.</em></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
